@@ -2,7 +2,7 @@
     background-color: #F0FFF0;
 }
 .container{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .top-logo img{
     height : 20%;
@@ -16,7 +16,7 @@
     padding: 6px 20px;
     cursor: pointer;
 }
-h6{
+#orange-text{
     color: #FD511A;
 }
 span{
@@ -37,4 +37,35 @@ span{
 .rectangle img{
     height: 20%;
     width: 20%;
+}
+.center-text{
+    text-align: center;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#man{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.col-md-7 p{
+    text-align: inter-word;
+}
+.last-section{
+    background-color: #282531;
+    position: absolute;
+    width: 100%;
+    height: 369px;
+    color: white;
+    text-align: justify;
+}
+footer{
+    text-align: center;
 }
